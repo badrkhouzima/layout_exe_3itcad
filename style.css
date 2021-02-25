@@ -1,0 +1,181 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+} */
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: raw;
+    /* align-items: center; */
+    width: 100% + 1rem;
+    /* height: 110px; */
+    padding: 10px;
+    background-color: rgb(100, 141, 203);
+    /* padding: 20px 20px 20px 10px; */
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+  }
+
+
+
+.menu-btn {
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    padding: 5px 5px;
+   
+}
+
+.nav-main {
+    width: 50%;
+    height: 40px;
+    background-color: red;
+    padding: 5px 5px;
+   
+
+
+
+}
+
+.nav-menu-right {
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    padding: 5px 2px;
+    
+  }
+
+  .showcase {
+    width: 100% + 1rem;
+    height: 15px;
+    background: yellow;
+    
+    background-clip: content-box;
+    padding: 9px;
+    box-shadow: inset 0 0 0 9px orange;
+    border-width: 0px 6px 6px 6px;
+  
+
+
+  }
+.content {
+  display: flex;
+  width: 100%;
+  
+}
+/* .content  */
+.body-content{
+  width: 100% +1rem;
+  /* + 0.7rem; */
+  height: 110px;
+  background: blue;
+
+  border-width: 6px 6px 6px 6px;
+    border-color: color;
+    border-style: solid;
+    margin-top: 10px;
+
+} 
+ 
+
+/* .content */
+  .sidebar {
+  width: 100% +1rem;
+  background: red;
+  height: 110px;
+ 
+  background-clip: content-box;
+ 
+  border-width: 6px 6px 6px 6px;
+    border-color: color;
+    border-style: solid;
+    margin-top: 10px;
+}
+.p1, .p2 {
+ 
+  width: 40%;
+  background-clip: content-box;
+  justify-content: space-around;
+  background-clip: content-box;
+  padding: 9px;
+
+  height: 10px;
+  background-color: yellow;
+}
+
+.p2 {
+  width: 86%;
+}
+
+
+body {
+  
+  align-items: stretch;
+
+
+}
+.footer {
+  width: 100% + 1rem;
+  height: 15px;
+  background-color: yellowgreen ;
+  
+  background-clip: content-box;
+  border-color: black;
+  border-style: solid;
+  border-width: 6px;
+  margin-top: 8px;
+}
+
+@media  (max-width: 600px) {
+  
+  .body-content, .content{
+    display: block;
+  }  
+
+  
+}
+
+@media  (max-width: 300px) {
+
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .body-content, .sidebar {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .menu-btn, .nav-main,
+  .nav-menu-right {
+    width: 80%;
+    height: 17px;
+    background-clip: content-box;
+    padding: 5px;
+    /* width: 100%; */
+  } 
+ 
+  .p1, .p2 {
+    display: flex;
+  
+    width: 80%;
+    height: 17px;
+    background-clip: content-box;
+   
+
+    padding: 5px;
+  }
+   
+}
